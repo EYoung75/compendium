@@ -17,10 +17,10 @@ const Home = () => {
         </Link>
         <Link to="/work" className="home__row__card">
           <h3>Catalogued Endeavors</h3>
-          <h2>Definitive Archives</h2>
+          <h2>Pending Archives</h2>
           <img src={require("../assets/dragonfly.png")} />
           <p>
-            Herein lies an unexhausted series of projects I have worked on
+            Herein lies an inexhaustive series of projects I have worked on
             previously. Projects that leverage skills such as React.JS, CSS3,
             HTML5, Flutter ...
           </p>
