@@ -11,6 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 10rem;
 
     &__card {
       cursor: pointer;
@@ -59,6 +60,7 @@
     &__row {
       flex-direction: column;
       justify-content: space-evenly;
+      margin-top: 5rem;
 
       &__card {
         box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.7);
