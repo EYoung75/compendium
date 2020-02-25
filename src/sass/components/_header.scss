@@ -1,7 +1,6 @@
 @import "../variables";
 @import "../mixins";
 
-
 .header {
   font-family: $font-primary;
   background-color: $color-primary;
@@ -11,30 +10,66 @@
   justify-content: space-evenly;
   padding: 2rem 0;
 
+  // & > * {
+  //   animation: fadeIn 3s;
+
+  // }
+
+  &__home {
+    font-size: 4rem;
+    color: black;
+    position: absolute;
+    top: 7rem;
+    left: 2rem;
+    animation: fadeIn 2s;
+    &:hover {
+      cursor: pointer;
+    }
+  }
   p {
-      font-size: 1.6rem;
-      font-style: italic;
-      margin: 1rem 0;
+    font-size: 1.6rem;
+    // font-style: italic;
+    font-family: $font-tertiary;
+    margin: 1rem 0;
+    animation: fadeIn 2s;
   }
 
   h2 {
-      margin: 1rem 2rem;
-      text-transform: uppercase;
-      letter-spacing: .4rem;
-
+    margin: 1rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    animation: fadeIn 3s;
   }
 
   h1 {
-      color: white;
-      text-transform: uppercase;
-      font-size: 4rem;
-      font-family: $font-secondary;
-      letter-spacing: .3rem;
+  color: white;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-family: $font-secondary;
+  letter-spacing: 0.3rem;
+  animation: fadeIn 5s;
   }
+
+
 
   @include respond(phone) {
     flex-direction: column;
     justify-content: space-evenly;
     margin-bottom: 5rem;
+    &__home {
+      font-size: 3rem;
+      top: 1rem;
+      left: 1rem;
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
   }
 }

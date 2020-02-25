@@ -5,6 +5,7 @@ import Home from "./pages/home.jsx";
 import Work from "./pages/work.jsx";
 import About from "./pages/about.jsx";
 import Contact from "./pages/contact.jsx";
+import Footer from "./components/footer.jsx";
 import { Switch, Route } from "react-router-dom";
 
 class App extends React.Component {
@@ -18,6 +19,7 @@ class App extends React.Component {
           <Route path="/about" exact component={About} />
           <Route path="/contact" exact component={Contact} />
         </Switch>
+        <Footer/>
       </div>
     );
   }

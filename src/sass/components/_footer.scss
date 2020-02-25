@@ -1,0 +1,11 @@
+.footer {
+    height: 10vh;
+    width: 100%;
+    background-color: $color-primary;
+    box-shadow: 0 -1rem 1rem rgba(black, 0.4);
+
+  &__socials {
+    font-size: 5rem;
+    margin-right: 2rem;
+  }
+}
