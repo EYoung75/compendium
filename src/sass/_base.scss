@@ -14,7 +14,10 @@ html {
   height: 100vh;
   width: 100vw;
   background-image: url("../assets/grid.png");
-  background-blend-mode: screen;
-
 }
 
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

@@ -70,7 +70,7 @@
     }
   }
 
-  @include respond(tab-port) {
+  @include respond(tab-land) {
     &__row {
       flex-direction: column;
       justify-content: space-evenly;

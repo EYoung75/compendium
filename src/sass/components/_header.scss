@@ -55,7 +55,6 @@
   @include respond(phone) {
     flex-direction: column;
     justify-content: space-evenly;
-    margin-bottom: 5rem;
     &__home {
       font-size: 3rem;
       top: 1rem;

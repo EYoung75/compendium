@@ -24,7 +24,7 @@ const Home = () => {
             previously. Projects that leverage skills such as React.JS, CSS3,
             HTML5, Flutter ...
           </p>
-          <p className="home__row__card__link"> Continue Reading &rarr;</p>
+          <p className="home__row__card__link"> Discover More &rarr;</p>
         </Link>
         <Link to="/contact" className="home__row__card">
           <h3>Mr. Young is currently receiving</h3>
@@ -44,8 +44,7 @@ const Home = () => {
           <img src={require("../assets/dragonfly.png")} />
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae sed
-            earum porro nostrum ullam quos magni laudantium ratione repellat
-            atque, unde, adipisci quod.
+            earum porro nostrum ullam quos magni.
           </p>
           <p className="home__row__card__link">Continue Reading &rarr;</p>
         </Link>
